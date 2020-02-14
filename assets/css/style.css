@@ -1,0 +1,65 @@
+:root {
+    --fulvous-color: #e28413;
+    --giants-orange-color: #f56416;
+    --flame-color: #dd4b1a;
+    --english-vermillion-color: #d64550;
+    --lust-color: #ef271b;
+}
+
+html, body {
+    font-family: 'Odibee Sans', cursive;
+    font-size: 100%;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lobster', cursive;
+}
+
+/*
+* 0%: #f56416
+* 35%: #ef271b
+* 100%: #d64550
+*/
+.is-main-gradient {
+    background: rgb(245, 100, 22);
+    background: linear-gradient(90deg, rgba(245, 100, 22, 1) 0%, rgba(239, 39, 27, 1) 35%, rgba(214, 69, 80, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(245, 100, 22, 1) 0%, rgba(239, 39, 27, 1) 35%, rgba(214, 69, 80, 1) 100%);
+    color: #fff;
+}
+
+.is-suave-gradient {
+    background: rgb(226,132,19);
+    background: linear-gradient(90deg, rgba(226,132,19,1) 0%, rgba(245,100,22,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(226,132,19,1) 0%, rgba(245,100,22,1) 100%);
+    color: #fff;
+}
+
+/* HEADER */
+.logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.logo h1 {
+    font-size: 2.5;
+}
+
+.hero-body .social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-body .social a {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-right: .7rem;
+}
+
+.hero-body .social a:hover {
+    color: #d64550;
+}
